@@ -27,21 +27,6 @@ A full-stack vehicle fleet management application built with TypeScript, featuri
 - **Seed Data**: Pre-populated database with sample vehicles
 
 ## Project Structure
-├── backend/
-│   ├── src/
-│   ├── tests/             # Backend unit tests
-│   │   └── services.test.ts
-│   ├── prisma/
-```
-
-and
-```
-├── packages/
-│   └── shared/
-│       ├── src/
-│       ├── tests/         # Shared package tests
-│       │   ├── rules.test.ts
-│       │   └── validation.test.ts
 ```
 vehicle-management/
 ├── backend/                 # Express.js API server
