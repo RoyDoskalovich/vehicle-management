@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    /* === File Layout === */
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@vm/shared": [
+        "../packages/shared/dist"
+      ]
+    },
+    /* === Language & Module Target === */
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": [
+      "ES2020"
+    ],
+    /* === Node Environment === */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ],
+    /* === Type Checking === */
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    /* === Source Maps & Declarations === */
+    "sourceMap": true,
+    "declaration": false,
+    /* === Misc === */
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*",
+    "prisma/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
